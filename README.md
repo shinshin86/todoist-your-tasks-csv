@@ -10,6 +10,8 @@ go install github.com/shinshin86/todoist-your-tasks-csv@latest
 
 ## Usage
 
+After execution, a file named `tasks.csv` will be generated in the current directory.
+
 ```sh
-todoist_api_token=<Your Todoist API token> go run main.go
+todoist_api_token=<Your Todoist API token> todoist-your-tasks-csv
 ```
